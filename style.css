@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg.jpg);
+    background-size:cover;
+    background-position:center;
+}
+main{
+    
+    border-radius: 1vw;
+    overflow: hidden;
+    background: #dadada;
+}
+#top{
+    background: #6943FF;
+}
+#top input{
+    display: block;
+    height: 3vh;
+    width: 5vw;
+    margin: 15px 0 15px 0;
+    border: none;
+    border-radius: .5vw;
+    text-align: center;
+}
+#top, #bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    
+    align-items: center;
+}
+#top button{
+    display: inline;
+    height: 3vh;
+    width: 6vw;
+    border: none;
+    border-radius: .5vw;
+}
+#bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5vh;
+    width: 105%;
+    background: #fff;
+    margin: 10px 0 10px 0;
+    border-radius: 8px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
